@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+
+body {
+	font-family: arial, sans-serf;
+	padding: 0;
+	margin: 0;
+}		
+
+
+.count{
+	position: absolute;
+	top: -3px;
+	right: -58px;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+}
+.grid {
+	position: absolute;
+	right: -60px;
+	top: -3px;
+	
+}
+
+.top_menu {
+	font-size: 9pt;
+	position: absolute;
+	right: 110px;
+	top: 21px;
+}
+
+.content {}
+
+.images {
+	padding-right: 10px;
+}
+
+.center {
+	    text-align: -webkit-center;
+
+}
+
+
+.logo {
+	position:relative;
+	padding-top: 200px;
+	height: 92px;
+    width: 272px;
+}
+
+.search_box {
+    width: 400px;
+    height: 26px;
+    box-shadow: 2px 3px 4px #e4e4e4;
+    border: .1px solid #e4e4e4;
+    margin-top: 20px;
+    padding: 10px;
+	font-size: 13px;
+}
+
+.button {
+	display: inline !important;
+	}
+
+input[type=text]:focus {
+    outline:0;
+}
+
+input[type=text] {
+	background-image: url('microphone.png');
+	background-position: 420px 14px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding-right: 50px;
+	display: inline-block;
+	margin-bottom: 27px;
+}
+
+input[type=submit] {
+    width: 145px;
+    height: 38px;
+    display: block;
+    background-color: #f4f4f4;
+    color: #747474;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+
+.text_only {
+	position: relative;
+	padding-right: 20px;
+}
+
+.top_text {
+	position: relative;
+	display: inline-block;
+	padding-right: 12px;
+	padding-top: 2px;
+}
+
+.circle {
+	height: 29px;
+	width: 29px;
+	border-radius: 50px;
+	background-color: #7A28A0;
+	position: absolute;
+	top: -3px;
+	right: -86px;
+}
+
+.letter {
+	color: white;
+	position: absolute;
+	top: 3px;
+	right: -75px;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	bottom: 0;
+    font-size: 9pt;
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    color: #717171;
+}
+
+.footer_bar {
+	height: 34px;
+	border-bottom: 1px solid #e4e4e4; 
+	display: flex;
+	align-items: center;
+}
+
+#tb_content, .fsl, .fsr {
+	margin-left: 27px;
+}
+
+.bbright_content {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
